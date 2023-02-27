@@ -1,0 +1,295 @@
+.call
+{
+    text-align: end;
+    font-size: small;
+    margin-right: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: end;
+}
+.call1
+{
+    text-align: end;
+    font-size: small;
+    margin-right: 40px;
+    /* margin-top: 20px; */
+}
+.para1
+{
+    background-color: red;
+    color:white;
+    text-align: center;
+    /* align-items: center; */
+    font: 12px,arial,sans-serif;
+    height: 30px;
+}
+.a1 
+{
+    color: white;
+}
+.img1
+{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.dropdown-item:hover
+{
+    text-decoration-color: Red;
+    font-size: medium;
+    /* text-decoration: underline; */
+
+}
+.body2
+{
+    height: 50px;
+    font: 12px,arial,sans-serif;
+}
+.parag
+{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.para3
+{
+    font-size: medium;
+    /* text-align: center; */
+    margin-left: 100px;
+    width: 700px;
+}
+
+#navbarSupportedContent
+{
+    margin-left: 135px;
+}
+.nav-link:hover
+{
+    text-decoration-color: Red
+}
+.navbar-nav
+{
+    margin-left: 145px
+}
+.nav-items
+{
+    margin-top: 8px;
+    margin-right: 20px;
+}
+.dropdown-item:hover
+{
+    color: red;
+}
+.body
+{   
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-evenly;
+    /* position: relative; */
+    height: 250px;
+    margin-right: 90px;
+}
+/* .body4
+{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.para4
+{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 30px;
+}
+.cards
+{
+    display: grid;
+    justify-content: space-evenly;
+    grid-gap: 20px;
+    width: auto;
+    /* height: 500px; */
+    grid-template-columns:20% 20% 20%;
+    /* margin-left: 120px;   */
+    /* position: relative; */
+}
+.a2
+{
+    color: red;
+    text-decoration: none;
+}
+.a2:hover
+{
+    box-shadow: red;
+    color: red;
+}
+.p2
+{
+    font-size: small;
+}
+.p1 
+{
+    font-size: large;
+    margin-top: 12px;
+}
+.para5
+{
+    margin-left: 150px;
+}
+.cards2
+{
+    display: grid;
+    justify-content: space-evenly;
+    grid-gap: 20px;
+    width: auto;
+    /* height: 500px; */
+    grid-template-columns:20% 20% 20%;
+    /* margin-left: 120px;   */
+    /* position: relative; */
+}
+.p3
+{
+    font-size: large;
+    margin-top: 12px;
+}
+.p4
+{
+    font-size: small;
+}
+.a3
+{
+    color: red;
+    text-decoration: none;
+}
+.a3:hover
+{
+    box-shadow: red;
+    color: red;
+}
+.card9:hover
+{
+    box-sizing: border-box red 2px;
+}
+/* .a4:hover
+{
+    box-shadow: red ;
+    border: 1px;box-sizing: border-box;
+} */
+.p5
+{
+    text-align: center;
+    margin-top: 60px;
+    font-size: x-large;
+}
+li
+{
+    list-style-type: none;
+}
+.ul1
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ul2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+#a5
+{
+    text-decoration: none;
+    color:black
+}
+#a5:hover
+{
+    color:red
+}
+.li1
+{
+    margin-top: 40px;
+}
+.body10
+{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align-last: center;
+    /* height: 350px; */
+    align-items: center;
+}
+.para6
+{
+    text-align: center;
+    margin-top: 80px;
+}
+.body11
+{
+    font-size: small;
+    margin-left: 120px;
+}
+.body12
+{
+    font-size: small;
+    margin-left: 120px;
+}
+.body13
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 11px;
+    margin: 0;
+    padding: 15px;
+}
+.sticky
+ {
+    position: sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+ }
+.m1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+button {
+    width: 120px;
+    border-radius: 20px;
+    /* display: inline-block; */
+    color: white;
+    height: 35px;
+    cursor: pointer;
+}
+.b1,.b2, .b3, .b4, .b5, .b6, .b7{
+    opacity: 0;
+  }
+.button_grid {
+            
+    height: 400px;
+    width: 1200px;
+    background:url("../images/pie_labeled.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button {
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+    height: 35px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.second_nav>a:hover{
+ border-bottom: 3px solid red;
+ 
+}
+@media (max-width: 600px) 
+{
+    body{width: auto;}
+}
